@@ -7,7 +7,7 @@ if(dapet>1) {
 
     var strs=document.URL;
     var urlnya= strs.replace("http://", "");
-    var strings='<meta name="viewport" content="width=device-width, initial-scale=1.0"><h3 align="center"> Maaf, website kami tidak dapat dibuka dengan baik jika anda menggunakan UCBrowser<br/><br/>Klik tombol pilih dibawah ini, lalu salin atau copy dan buka menggunakan browser lain seperti Chrome, Firefox, Opera, dll<br/><br/><input type="text" class="teks" value="'+ document.URL  +'" size="50"><br/> <button class="js-copy-btn">Pilih</button><br/></h3>';
+    var strings='<meta name="viewport" content="width=device-width, initial-scale=1.0"><h3 align="center"> Maaf, website kami tidak dapat dibuka dengan baik jika anda menggunakan UCBrowser<br/><br/>klik tombol pilih dibawah ini , lalu salin/copy dan buka menggunakan browser lain (seperti Chrome, Opera, dll)<br/><br/><input type="text" class="teks" value="'+ document.URL  +'" size="50"><br/> <button class="js-copy-btn">Pilih</button><br/></h3>';
 
 
     document.getElementById("gaboleh").innerHTML = strings;
